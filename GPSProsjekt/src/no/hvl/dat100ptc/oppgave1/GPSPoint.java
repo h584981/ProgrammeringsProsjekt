@@ -8,7 +8,7 @@ public class GPSPoint {
 		
 	public GPSPoint(int time, double latitude, double longitude, double elevation) {
 
-		// TODO - konstruktur Test
+		// TODO - konstruktur
 
 		throw new UnsupportedOperationException(TODO.construtor("GPSPoint"));
 
