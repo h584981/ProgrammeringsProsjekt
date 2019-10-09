@@ -71,10 +71,7 @@ public class GPSPoint {
 		
 		String str;
 		
-		str = "Tid: " + this.time;
-		str += " Breddegrad: " + this.latitude;
-		str += " Lengdegrad: " + this.longitude;
-		str += " Høyde: " + this.elevation;
+		str = this.time + " (" + this.latitude + " " + this.longitude + ") " + this.elevation + "/n";
 		
 		return str;
 		
